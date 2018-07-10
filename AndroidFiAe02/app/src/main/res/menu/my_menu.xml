@@ -9,4 +9,12 @@
     <item
         android:id="@+id/action_item_3"
         android:title="@string/menu_item_3" />
+    <item
+        android:id="@+id/action_item_4"
+        android:title="item 4"
+        android:onClick="actionItem4onClicked"/>
+    <item
+        android:id="@+id/action_other_activity"
+        android:title="item 4"
+        android:onClick="showOtherActivity"/>
 </menu>
