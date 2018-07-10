@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntentsDemoActivity">
+
+    <Button
+        android:id="@+id/buttonOtherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showOtherActivity"
+        android:text="other Activity" />
+
+    <Button
+        android:id="@+id/buttonOtherActivityWithData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showOtherActivityWithData"
+        android:text="Other Activity With Data" />
+
+    <Button
+        android:id="@+id/buttonOtherActivityWithResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showOtherActivityWithResult"
+        android:text="Other Activity With Result" />
+
+    <Button
+        android:id="@+id/buttonBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startBrowser"
+        android:text="Browser" />
+
+    <Button
+        android:id="@+id/buttonWebSuche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startWebSuche"
+        android:text="Web Suche" />
+
+    <Button
+        android:id="@+id/buttonAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setAlarm"
+        android:text="Alarm" />
+
+    <Button
+        android:id="@+id/buttonMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showMaps"
+        android:text="Maps" />
+
+    <Button
+        android:id="@+id/buttonGiza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showGiza"
+        android:text="Giza" />
+</LinearLayout>

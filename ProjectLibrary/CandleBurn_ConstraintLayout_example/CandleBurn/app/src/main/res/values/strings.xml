@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CandleBurn</string>
+    <string name="description">Berechnen, wie lange eine Kerze mit bestimmter Größe oder Gewicht brennen kann, oder wie lange es braucht, bis eine bestimmte Länge runtergebrannt ist.</string>
+    <string name="material">Material</string>
+    <string-array name="materials">
+        <item>Paraffinwachs</item>
+        <item>Stearin</item>
+        <item>Bienenwachs</item>
+    </string-array>
+    <string name="length">Länge (Höhe)</string>
+    <string name="diameter">Durchmesser</string>
+    <string name="duration">Ungefähre Brenndauer</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="calculate">Berechnen</string>
+    <string name="centimetre">cm</string>
+    <string name="duration_unit">h:m</string>
+</resources>

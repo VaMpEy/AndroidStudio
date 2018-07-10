@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Android FiAe02</string>
+    <string name="lastname">Lastname</string>
+    <string name="city">City</string>
+    <string name="street">Street</string>
+    <string-array name="cities_array">
+        <item>Bremen</item>
+        <item>Husum</item>
+        <item>Berlin</item>
+        <item>Paris</item>
+    </string-array>
+
+    <string name="menu_item_1">Item 1</string>
+    <string name="menu_item_2">Item 2</string>
+    <string name="menu_item_3">Item 3</string>
+</resources>

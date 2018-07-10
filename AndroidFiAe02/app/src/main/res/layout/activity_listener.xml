@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListenerActivity">
+
+    <Button
+        android:id="@+id/buttonAnonym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anonym" />
+
+    <Button
+        android:id="@+id/buttonLambda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lambda" />
+
+    <Button
+        android:id="@+id/buttonXmlAttribut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XML Attribut"
+        android:onClick="xmlButtonClicked"/>
+    <Button
+        android:id="@+id/buttonMethref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Methodenreferenz"
+        android:onClick="methRef"/>
+</LinearLayout>

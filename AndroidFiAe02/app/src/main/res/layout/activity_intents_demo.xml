@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="urinnenet.de.androidfiae02.IntentsDemoActivity">
+
+    <Button
+        android:id="@+id/buttonOtherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="showOtherActivity"
+        android:text="Other Activity" />
+
+    <Button
+        android:id="@+id/buttonOtherActivityWithData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="showOtherActivityWithData"
+        android:text="Other Activity With Data" />
+
+    <Button
+        android:id="@+id/buttonOtherActivityWithResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="showOtherActivityWithResult"
+        android:text="Other Activity With Result" />
+
+    <Button
+        android:id="@+id/buttonBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="startBrowser"
+        android:text="Browser" />
+
+    <Button
+        android:id="@+id/buttonWebSuche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="startWebSuche"
+        android:text="Web Suche" />
+
+    <Button
+        android:id="@+id/buttonAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="setAlarm"
+        android:text="Alarm" />
+
+    <Button
+        android:id="@+id/buttonMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="showMap"
+        android:text="Maps" />
+
+</LinearLayout>

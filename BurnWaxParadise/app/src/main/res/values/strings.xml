@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BurnWAX: Paradise</string>
+    <string name="description">Calculate how long a candle with a certain size or weight can burn or
+        how long it takes for a certain length to burn down.</string>
+    <string-array name="material">
+        <item>Paraffin wax</item>
+        <item>Stearin</item>
+        <item>Bees wax</item>
+    </string-array>
+</resources>

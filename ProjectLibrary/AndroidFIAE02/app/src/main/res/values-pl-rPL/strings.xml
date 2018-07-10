@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android FIAE02</string>
+    <string name="last_name">Nazwisko</string>
+    <string name="city">Miasio</string>
+    <string name="street">Ulica</string>
+</resources>

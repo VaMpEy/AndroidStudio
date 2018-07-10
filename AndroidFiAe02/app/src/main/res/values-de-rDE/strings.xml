@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="street">Straße</string>
+    <string name="city">Stadt</string>
+    <string name="lastname">Nachname</string>
+
+    <string name="menu_item_1">Eintrag 1</string>
+    <string name="menu_item_2">Eintrag 2</string>
+    <string name="menu_item_3">Eintrag 3</string>
+</resources>

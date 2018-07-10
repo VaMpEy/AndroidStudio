@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CandleBurn</string>
+    <string name="description">
+        Lorem ipsum dolor sit amet, ex alienum consetetur honestatis nec. Reque harum scaevola cu
+        mel, regione mediocritatem vis te? Ut mea sumo oporteat, vix ei facer latine, homero
+        postulant ea pri. Impetus virtute nominavi sea ne, quo ignota minimum an, quodsi dissentiet
+        cum id. Vide ferri iisque per cu.
+    </string>
+    <string name="error_msg_length" />
+    <string name="error_msg_diameter" />
+    <string-array name="material">
+        <item>Paraffin wax</item>
+        <item>Stearin</item>
+        <item>Beeswax</item>
+    </string-array>
+    <string-array name="material_enum">
+        <item>Paraffin wax</item>
+        <item>Stearin</item>
+        <item>Beeswax</item>
+    </string-array>
+</resources>

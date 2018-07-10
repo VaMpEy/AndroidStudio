@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CandleBurn</string>
+    <string name="comment">Wie lange kann eine Kerze mit bestimmter Größe brennen oder wie lange braucht es, bis eine bestimmte Länge runtergebrannt ist.</string>
+    <!-- Beschriftungen -->
+    <string name="label_material">Material</string>
+    <string name="label_length">Länge (Höhe)</string>
+    <string name="label_unit_length">cm</string>
+    <string name="label_diameter">Durchmesser</string>
+    <string name="label_unit_diameter">cm</string>
+    <string name="label_burning_time">Ungefähre Brenndauer</string>
+    <string name="label_unit_burning_time">h:m</string>
+    <string name="label_calculate">berechnen</string>
+    <string name="label_reset">zurücksetzen</string>
+    <!-- Fehlermeldungen -->
+    <string name="error_msg_length">ungültige Länge!</string>
+    <string name="error_msg_diameter">ungültiger Durchmesser!</string>
+    <!-- Materialien -->
+    <string-array name="material_array">
+        <item>Stearin</item>
+        <item>Paraffinwachs</item>
+        <item>Bienenwachs</item>
+    </string-array>
+    <string-array name="material_enum_array">
+        <item>STEARIN</item>
+        <item>PARAFFIN_WAX</item>
+        <item>BEESWAX</item>
+    </string-array>
+</resources>

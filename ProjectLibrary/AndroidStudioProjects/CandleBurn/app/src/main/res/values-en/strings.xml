@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CandleBurn</string>
+    <string name="comment">How long can a candle of a certain size burn or how long can it take for a certain length to burn down?</string>
+    <!-- Beschriftungen -->
+    <string name="label_material">Material</string>
+    <string name="label_length">Length (Height)</string>
+    <string name="label_diameter">Diameter</string>
+    <string name="label_burning_time">Burning Time</string>
+    <string name="label_calculate">Calculate</string>
+    <string name="label_reset">Reset</string>
+    <!-- Fehlermeldungen -->
+    <string name="error_msg_length">invalid length!</string>
+    <string name="error_msg_diameter">invalid diameter!</string>
+    <!-- Materialien -->
+    <string-array name="material_array">
+        <item>Stearin</item>
+        <item>Paraffin wax</item>
+        <item>Beeswax</item>
+    </string-array>
+</resources>

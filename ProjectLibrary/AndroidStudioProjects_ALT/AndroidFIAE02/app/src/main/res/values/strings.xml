@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android FIAE02</string>
+    <string name="last_name">Last Name</string>
+    <string name="city">City</string>
+    <string name="street">Street</string>
+    <string-array name="cities_array">
+        <item>Bremen</item>
+        <item>Husum</item>
+        <item>Berlin</item>
+        <item>Paris</item>
+    </string-array>
+</resources>

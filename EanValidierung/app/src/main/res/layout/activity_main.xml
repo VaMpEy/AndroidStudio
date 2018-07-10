@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EAN Validierung" />
+
+    <EditText
+        android:id="@+id/editTextEanCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonCheckEan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check" />
+
+    <TextView
+        android:id="@+id/textViewResultMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ean = 5_449_000_017_888; // gültig
+ ean = 4_012_700_961_309; // ungültig! = 3
+ ean = 4_044_836_462_635; // ungültig! = 8
+ ean = 9_783_446_426_634; // gültig
+ ean = 4_004_870_001_620; // gültig!"
+        />
+
+</LinearLayout>
